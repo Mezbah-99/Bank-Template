@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BlackeyBaby Bank</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="text-center bank_title">Welcome to BlackeyBaby Bank</h1>
+    <div class="form_container" id="form_container">
+        <div class="submit-area bbank">
+            <h2 class="">Login</h2>
+            <br>
+            <input class="form-control" type="text" placeholder="Email" class="from-control">
+            <br>
+            <input class="form-control" type="password" placeholder="password" class="from-control">
+            <br>
+            <button class="btn btn-success" id="submit">Enter</button>
+        </div>
+    </div>
+    <div id="trasaction-area" class="bbank">
+      <div class="row">
+        <div class="col-md-4 ">
+          <div class="deposit status">
+            <h5>Deposit</h5>
+            <h2>$ <span id="current_deposit">0</span></h2></div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="withdraw status">
+            <h5>Withdraw</h5>
+            <h2>$ <span id="withdrawamount">00</span></h2>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="balance status">
+            <h5>Balance</h5>
+            <h2>$ <span id="currentotal">5000</span> </h2></div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="submit-area">
+            <h4>Deposit</h4>
+            <input id="depositAmount" type="text" class="form-control" placeholder="$ amount you want to Deposit">
+            <br>
+            <button class="btn btn-success" id="depositBtn">Deposit</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="submit-area">
+            <h4>Withdraw</h4>
+            <input id="withdrawAmount" type="text" class="form-control" placeholder="$ amount you want to Withdraw">
+            <br>
+            <button class="btn btn-success" id="addWithdraw">Withdraw</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+    
+
+  </body>
+</html>

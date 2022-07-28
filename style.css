@@ -1,0 +1,29 @@
+.bank_title{
+    padding: 80px;
+}
+.bbank,.submit-area{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding:40px;
+}
+#trasaction-area{
+    display: none;
+}
+.deposit{
+    background-color: #5E4FC7;
+}
+.withdraw{
+    background-color: #F09671;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    margin: 0 20px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
